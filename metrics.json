@@ -1,0 +1,84 @@
+{
+  "best_model_selected": "MobileNetV2 Fine-Tuned",
+  "selection_criterion": "highest internal validation f1-score / accuracy",
+  "internal_validation_comparison": [
+    {
+      "accuracy": 0.705,
+      "precision": 0.7204,
+      "recall": 0.67,
+      "f1_score": 0.6943,
+      "roc_auc": 0.7682,
+      "pr_auc": 0.7781,
+      "confusion_matrix": [
+        [
+          148,
+          52
+        ],
+        [
+          66,
+          134
+        ]
+      ],
+      "model_key": "baseline",
+      "model_label": "Custom CNN Baseline"
+    },
+    {
+      "accuracy": 0.9575,
+      "precision": 0.9692,
+      "recall": 0.945,
+      "f1_score": 0.957,
+      "roc_auc": 0.9932,
+      "pr_auc": 0.9939,
+      "confusion_matrix": [
+        [
+          194,
+          6
+        ],
+        [
+          11,
+          189
+        ]
+      ],
+      "model_key": "mobilenet_frozen",
+      "model_label": "MobileNetV2 Feature Extractor"
+    },
+    {
+      "accuracy": 0.9825,
+      "precision": 0.9849,
+      "recall": 0.98,
+      "f1_score": 0.9825,
+      "roc_auc": 0.998,
+      "pr_auc": 0.9983,
+      "confusion_matrix": [
+        [
+          197,
+          3
+        ],
+        [
+          4,
+          196
+        ]
+      ],
+      "model_key": "mobilenet_finetuned",
+      "model_label": "MobileNetV2 Fine-Tuned"
+    }
+  ],
+  "final_holdout_test_metrics": {
+    "accuracy": 0.977,
+    "precision": 0.9723,
+    "recall": 0.982,
+    "f1_score": 0.9771,
+    "roc_auc": 0.9987,
+    "pr_auc": 0.9988,
+    "confusion_matrix": [
+      [
+        486,
+        14
+      ],
+      [
+        9,
+        491
+      ]
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "best_model_architecture": "MobileNetV2_FineTuned",
+  "best_model_stage": "mobilenet_finetuned",
+  "best_val_accuracy": 0.9825,
+  "best_val_loss": 0.053,
+  "input_resolution": [
+    224,
+    224
+  ],
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "classes": {
+    "0": "cats",
+    "1": "dogs"
+  },
+  "framework": "PyTorch 2.15.0+cpu",
+  "device": "cpu",
+  "seed": 42
+}

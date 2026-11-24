@@ -1,0 +1,37 @@
+{
+  "total_scanned": 3000,
+  "corrupted_count": 0,
+  "duplicate_hash_clusters": 0,
+  "formats": {
+    "JPEG": 3000
+  },
+  "color_modes": {
+    "RGB": 3000
+  },
+  "dimension_stats": {
+    "min_width": 59,
+    "max_width": 1050,
+    "mean_width": 405.662,
+    "min_height": 41,
+    "max_height": 768,
+    "mean_height": 360.19533333333334,
+    "mean_aspect_ratio": 1.1616959666666669
+  },
+  "split_counts": {
+    "train_internal": {
+      "cats": 800,
+      "dogs": 800,
+      "total": 1600
+    },
+    "val_internal": {
+      "cats": 200,
+      "dogs": 200,
+      "total": 400
+    },
+    "holdout_test": {
+      "cats": 500,
+      "dogs": 500,
+      "total": 1000
+    }
+  }
+}
